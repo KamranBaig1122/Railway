@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Booking</title>
+  </head>
+  <body style="background-color: #3D1766;">
+    <section class="dashboard">
+        <div class="d-container dashboard-container">
+            <aside>
+                <ul>
+                    <li><a  href="manageUser.html"><h5>Manage User</h5></a></li>
+                    <li><a href="addUser.html"><h5>Add User</h5></a></li>
+                    <li><a style="background-color: #3D1766;" href="trainDetails.html"><h5>Train Details</h5></a></li>
+                    <li><a href="addTrain.html"><h5>Add Train</h5></a></li>
+                    <li><a href="addTicket.html"><h5>Add Ticket</h5></a></li>
+                    <li><a href="ticketDetails.html"><h5>Ticket Detail</h5></a></li>
+                </ul>
+            </aside>
+            <main>
+                <h2>Train Details</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Train Number</th>
+                            <th>Capacity</th>
+                            <th>Route</th>
+                            <th>Status</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>200</td>
+                            <td>Lahore</td>
+                            <td>On Track</td>
+                            <td><a href="train-edit.html" class="btn sm">Edit</a></td>
+                            <td><a href="#" class="btn sm danger">Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+    </section>
+  </body>
+</html>
