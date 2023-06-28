@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -10,35 +10,37 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.form-section{
+.form-section {
     display: grid;
     place-items: center;
     height: 100vh;
     background-color: #3D1766;
 }
 
-.form-section-container{
+.form-section-container {
     width: 40%;
 }
 
-.container{
+.container {
     margin-inline: auto;
 }
 
-.sign{
+.sign {
     color: white;
     line-height: 1.3;
     font-size: 1.7rem;
     margin: 1rem 0;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-input , textarea , select{
+input,
+textarea,
+select {
     padding: 0.8rem 1.4rem;
     background-color: #eeeeee;
     border-radius: 0.5rem;
@@ -48,16 +50,16 @@ input , textarea , select{
     outline: 0;
 }
 
-.btn{
+.btn {
     display: inline-block;
     width: fit-content;
     padding: 0.6rem 1.2rem;
-    background-color: #9156cf;
+    background-color: #9156cf !important;
     border-radius: 0.5rem;
     border: 0;
     cursor: pointer;
     transition: all 300ms ease;
-    color: white;
+    color: white !important;
 }
 
 .form_section small {
@@ -70,7 +72,7 @@ input , textarea , select{
     color: white;
 }
 
-.dashboard{
+.dashboard {
     margin-top: 3rem;
 }
 
@@ -79,22 +81,22 @@ input , textarea , select{
     grid-template-columns: 14rem auto;
     gap: 1rem;
     background-color: #6F1AB6;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 2rem;
 }
 
-.d-container{
+.d-container {
     width: 74%;
     max-width: 1800px;
     margin-inline: auto;
 }
 
-h5{
+h5 {
     color: white;
     line-height: 1.3;
 }
 
-a{
+a {
     color: white;
     transition: all 300ms ease;
     text-decoration: none;
@@ -108,7 +110,7 @@ a{
     padding: 1.6rem;
 }
 
-.dashboard aside ul{
+.dashboard aside ul {
     list-style-type: none;
 }
 
@@ -116,22 +118,22 @@ a{
     border-bottom: 1px solid #3D1766;
 }
 
-.dashboard main{
+.dashboard main {
     margin-left: 1.5rem;
 }
 
-h2{
+h2 {
     font-size: 1.7rem;
     line-height: 1.3
 }
 
-.dashboard main h2{
+.dashboard main h2 {
     margin: 1rem 0 2rem 0;
     line-height: 1;
     color: white;
 }
 
-table{
+table {
     color: white;
 }
 
@@ -147,9 +149,12 @@ table{
 }
 
 .dashboard main table td {
+    text-align: center;
     padding: 0.8rem;
     border-bottom: 1px solid white;
 }
+
+
 
 .btn.sm {
     padding: 0.3rem 0.7rem;
@@ -157,9 +162,76 @@ table{
 }
 
 .btn.danger {
-    background: rgb(255, 73, 73);
+    background: rgb(255, 73, 73) !important;
 }
 
-.a-form-section-container{
+.red-danger {
+    background: rgb(255, 73, 73) !important;
+}
+
+.a-form-section-container {
     width: 60%;
+}
+
+
+.error {
+    color: rgb(255, 73, 73);
+}
+
+
+td>a {
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.sign-out-btn {
+    color: white !important;
+    padding: 5px 6px !important;
+    border-radius: 3px;
+    border: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+nav {
+    background: #6f1ab6 !important;
+}
+
+.username {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+
+.add-user-btn {
+    background: white;
+    padding: 10px;
+    border-radius: 1.5rem;
+}
+
+.add-user-btn>a {
+    color: black !important;
+}
+
+label {
+    color: white;
+    font-size: 1.4rem;
+}
+
+th {
+    text-align: center !important;
+}
+
+.dropdown-menu>a {
+    color: black !important;
+}
+
+.tr-bg-color {
+    background: #8d67dd !important;
+    font-weight: bolder;
+
 }
